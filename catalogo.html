@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCatalogo.css">
+    <title>Catalogo</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="index">Inicio</a>
+        <h1>Catalogo</h1>
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+              </svg>
+              <div class="count-products">
+                <span class="contador-productos">1</span>
+              </div>
+              <div class="container-cart-products hidden-cart">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-productos">1 Saldo Ripple</span>
+                            <span class="precio-producto-carritos">$248.88 ARS</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                          
+                    </div>
+                    <div class="cart-total"> 
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$248.88</span>
+                    </div>
+              </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="images/bit2.jpg" alt="Bitcoin">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo Bitcoin</h2>
+                <p class="price">$ 12.241.206,97 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="images/eth2.jpg" alt="Ethereum">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo Ethereum</h2>
+                <p class="price">$ 662.930,48 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="images/lit2.jpg" alt="Litecoin">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo Litecoin</h2>
+                <p class="price">$ 25.803,48 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="images/tether.jpg" alt="Tether">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo Tether</h2>
+                <p class="price">350,11 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="images/ripple.jpg" alt="Ripple">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo Ripple</h2>
+                <p class="price">$ 248,88 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="images/xrp.jpg" alt="xrp">
+            </figure>
+            <div class="info-product">
+                <h2>Saldo XRP</h2>
+                <p class="price">$ 248,79 ARS</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="carrito.js"></script>
+</body>
+</html>
